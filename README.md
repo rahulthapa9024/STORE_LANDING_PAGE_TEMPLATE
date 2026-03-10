@@ -4,6 +4,8 @@ A modern, responsive **store landing page template** built with React, Vite, Tai
 
 ## Live Demo
 
+<img src="./image1.png">
+
 🔗 https://store-landing-page-template.vercel.app/
 
 ## Tech Stack
