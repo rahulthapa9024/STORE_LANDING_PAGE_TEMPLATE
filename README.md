@@ -1,16 +1,64 @@
-# React + Vite
+# Store Landing Page Template
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **store landing page template** built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 https://store-landing-page-template.vercel.app/
 
-## React Compiler
+## Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router
+- Lucide React
 
-## Expanding the ESLint configuration
+## Run Locally
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 1) Clone the repository
+
+```bash
+git clone <your-repository-url>
+cd STORE_LANDING_PAGE_TEMPLATE
+```
+### 2) Install dependencies
+
+Create a .evn file in the folder and create a variable to store your header video link
+
+```bash
+VITE_THUMBNAIL_VIDEO= your_video_link
+```
+
+### 3) Install dependencies
+
+```bash
+npm install
+```
+
+### 4) Start the development server
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in your terminal (typically `http://localhost:5173`).
+
+## Available Scripts
+
+- `npm run dev` — Start the Vite development server.
+- `npm run build` — Build the app for production.
+- `npm run preview` — Preview the production build locally.
+- `npm run lint` — Run ESLint checks.
+
+## Build for Production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Deployment
+
+This project is ready to deploy on platforms like **Vercel** (already configured with `vercel.json`).
